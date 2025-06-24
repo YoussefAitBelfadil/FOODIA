@@ -1,0 +1,30 @@
+.navbar{
+    backdrop-filter: blur(400px);
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#about{
+    color:black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#home{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#contact{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#home:hover,
+#contact:hover,
+#about:hover{
+    transform: scale(1.5);
+    color: black;
+}

@@ -1,0 +1,99 @@
+li{
+    text-decoration: none;
+}
+.navbar{
+    backdrop-filter: blur(2000px);
+    border-radius: 30px;
+}
+#imgg{
+    filter: drop-shadow(12px 5px 200px black);
+    animation: img 1s alternate 1;
+    animation-delay: 0ms;
+}
+@keyframes img {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        transform: translate(200px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+#katba{
+    position: relative;
+    top: 190px;
+}
+#imggg{
+    position: relative;
+    bottom: 130px;
+    
+}
+#About{
+    color:black;
+    font-weight: 500;
+}
+#About:hover{
+    transform: scale(1.5);
+}
+#menu{
+    color: black;
+    font-weight: 500;
+}
+#contact{
+    color: black;
+    font-weight: 500;
+}
+#menu:hover,
+#contact:hover{
+    transform: scale(1.5);
+    color: black;
+}
+#def{
+    text-align: initial;
+}
+#def li{
+    margin-top: 30px;
+    text-shadow: 1px 3px 10px gray;
+    font-family: cursive Verdana, Geneva, Tahoma, sans-serif;
+}
+#def li h3 mark{
+    border-radius: 30px 1px;
+    padding: 8px;
+    text-shadow: none;
+}
+.card{
+    border-radius:110px;
+    opacity: 0.8;
+}
+.card img{
+    border-radius: 100px;
+    transition: all ;
+    transition-duration: 0.5s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transform: rotateX(10deg);
+    border-radius: 0;
+}
+.card:hover{
+opacity: 1;
+}
+.text{
+    animation: text 1s alternate 1;
+    animation-delay: 0s;
+}
+@keyframes text {
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+        transform: rotateY(40deg);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

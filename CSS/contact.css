@@ -1,0 +1,37 @@
+.navbar{
+    backdrop-filter: blur(200px);
+}
+#ul{
+    list-style-type: none;
+}
+#ul li a{
+    text-decoration:none;
+    color: black;
+}
+#ul li a:hover{
+    color: white;
+}
+fieldset{
+    backdrop-filter: blur(500px);
+    border-radius: 30px;
+}
+#About{
+    color:black;
+    font-weight: 500;
+}
+#About:hover{
+    transform: scale(1.5);
+}
+#menu{
+    color: black;
+    font-weight: 500;
+}
+#contact{
+    color: black;
+    font-weight: 500;
+}
+#menu:hover,
+#contact:hover{
+    transform: scale(1.5);
+    color: black;
+}
