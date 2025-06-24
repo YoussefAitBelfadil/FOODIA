@@ -1,72 +1,88 @@
-# 🍽️ Simple Restaurant Website
+<h1 align="center">🍝 Restaurant Website</h1>
+<p align="center">
+  <i>My first website built in 2023 — A simple and responsive restaurant website using HTML, CSS, and Bootstrap.</i>
+</p>
 
-Welcome to **Youssef AitBelfadil's** first-ever website project, built in **2023**!  
-This is a basic yet beautifully crafted restaurant website using **HTML**, **CSS**, and **Bootstrap**.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white" alt="HTML Badge"/>
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white" alt="CSS Badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap&logoColor=white" alt="Bootstrap Badge"/>
+</p>
 
 ---
 
-## 📁 Project Structure
+## 📸 Preview
+
+> Add screenshot(s) of your website here:
+> ![Home Page](screenshots/home.png)
+
+---
+
+## 📁 Folder Structure
 
 <pre>
-├── HOME.html → Main landing page
-├── ABOUT.html → About the restaurant
-├── CONTACT.html → Contact form page
-├── MENU.html → Food and drinks menu
-├── CSS/ → Custom styles
-├── BOOTSTRAP/ → Bootstrap framework files
-├── FOOD/ → Images related to dishes
----
-
-## 🌟 Features
-
-- Fully responsive design using **Bootstrap**
-- Clean and minimal UI
-- Static pages with easy navigation
-- Styled sections for menu, team, contact, etc.
-- Simple media integration (audio/video)
-- Lightweight and beginner-friendly
-
----
-
-## 💡 Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **Bootstrap 4/5**
-
----
-
-## 🧑‍🍳 Inspiration
-
-> This website was my very first project created in 2023 to practice and improve my frontend development skills.  
-> It represents a fictional restaurant and was built purely using basic web development tools.
-
----
-
-
----
-
-## 🚀 How to Run It
-
-Just open `HOME.html` in your browser.  
-No server setup needed — it's a **static website**!
-
----
-
-## 📬 Contact
-
-Made with ❤️ by **Youssef AitBelfadil**  
-GitHub: [@YoussefAitBelfadil](https://github.com/YoussefAitBelfadil)
-
----
-
-## 📄 License
-
-This project is for learning purposes. You are free to use or modify it as you wish.
-
-├── audio video/ → Multimedia files (optional)
-├── bg/ → Background images
-├── logo/ → Restaurant logos
-├── team/ → Team member photos or info
+├── HOME.html # Landing page
+├── ABOUT.html # About us section
+├── CONTACT.html # Contact form
+├── MENU.html # Menu page
+├── CSS/ # Custom CSS
+├── BOOTSTRAP/ # Bootstrap assets
+├── FOOD/ # Food images
+├── audio video/ # Media files
+├── bg/ # Background images
+├── logo/ # Logos
+├── team/ # Team images
 </pre>
 
+
+---
+
+## ✨ Features
+
+- 📱 **Responsive Design** with Bootstrap
+- 🎨 Clean layout and structure
+- 📷 Visuals for food, background, team
+- 💬 Simple contact form
+- 📹 Media-ready (audio/video)
+
+---
+
+## 🧰 Tech Stack
+
+| Language | Framework | Tools |
+|----------|-----------|-------|
+| HTML5    | Bootstrap | Git   |
+| CSS3     | —         | VSCode|
+
+---
+
+## 🚀 How to Run
+
+> No installation needed.
+
+Just clone this repo and open `HOME.html` in any browser:
+
+```bash
+git clone https://github.com/YoussefAitBelfadil/YourRepoName.git
+cd YourRepoName
+start HOME.html
+
+🧑‍🍳 About This Project
+"This was my very first website created in 2023. I built it to learn web development basics. It's a static website meant to represent a restaurant, with pages for home, menu, about, contact, and more."
+
+🙌 Author
+Made with ❤️ by Youssef AitBelfadil
+
+📄 License
+This project is open-source and free to use. Attribution appreciated.
+
+pgsql
+Copy
+Edit
+
+---
+
+✅ **Instructions**:
+- Replace `"YourRepoName.git"` with your real repo URL.
+- Add screenshots to a `screenshots/` folder (optional).
+- Commit this file as `README.md`.
